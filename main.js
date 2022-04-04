@@ -172,7 +172,24 @@ switch (primoGusto) {
 
 // ++++++++++++++++++++ WHILE e DO-WHILE +++++++++++++++++++++++
 // https://www.w3schools.com/js/js_loop_while.asp
+// scrivo i primi 10 numeri
+var i=0
+while(i<10){
+    console.log("numero (i)"+i)
+    i++
+}
+// array e while
+// SBAGLIATO !!!
+// console.log(array[0])
+// console.log(array[1])
+// ...
 
+var i=0;
+while(i<gustiGelato.length){
+    var gusto=gustiGelato[i]
+    console.log(gusto)
+    i++;
+}
 
 
 
