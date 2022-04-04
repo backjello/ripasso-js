@@ -190,6 +190,23 @@ while(i<gustiGelato.length){
     console.log(gusto)
     i++;
 }
+// incremento numero finchè non è un multiplo di 7
+var numero=1;
+while (numero%7!=0) {
+    numero++
+}
+console.log("il numero "+numero+" e' multiplo di 7")
+
+// come fermo un while ?
+var numero=1;
+while (true) { //while true va avanti all'infinito
+    numero++
+    if(numero>10000){ // sto eseguendo troppe volte il ciclo, c'è un errore
+        console.log("qualcosa non va")
+        break
+    }
+}
+
 
 
 
